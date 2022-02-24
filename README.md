@@ -1,34 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+   <img src="./.github/logo.svg" alt="Move It" width="300"/>
+</p>
 
-## Getting Started
+<p align="center">	
+   <a href="https://linkedin.com/in/lukevinicius/">
+      <img alt="Lucasvinicius" src="https://img.shields.io/badge/-lukevinicius-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/lukevinicius/ignews?color=%235963C5" />
+  <img alt="lastcommit" src="https://img.shields.io/github/last-commit/lukevinicius/ignews?color=%235761C3" />
+  <img alt="License" src="https://img.shields.io/github/license/lukevinicius/ignews?color=%235E69D7" />
+  <img alt="Issues" src="https://img.shields.io/github/issues/lukevinicius/ignews?color=%235965E0">
+  <a href="mailto:lucasviniciusaalves@gmail.com">
+   <img alt="Email" src="https://img.shields.io/badge/-lucasviniciusaalves%40gmail.com-%23525DCB" />
+  </a>
+</p>
 
-First, run the development server:
+<p align="center">
+  📰 The ig.news project is a blog where users can access the content of each post according to their subscription status. Project developed during the second Bootcamp Ignite module | <a href="https://github.com/Rocketseat">@Rocketseat</a>
+</p>
+
+<div align="center">
+  <sub> Made with 💖 by
+    <a href="https://github.com/lukevinicius">Lucas vinicius.
+  </sub>
+</div>
+
+# 📌 Contents
+
+* [Screenshots](#camera-screenshot) 
+* [Technologies](#rocket-technologies) 
+* [How to Run](#computer-how-to-run)
+* [Issues](#bug-issues)
+* [Contributing](#sparkles-issues)
+* [License](#page_facing_up-license)
+
+# :camera: Screenshots
+<div align="center">
+   <img src="./.github/screen1.png" width="400px">
+   <img src="./.github/screen2.png" width="400px">
+   <img src="./.github/screen3.png" width="400px">
+   <img src="./.github/screen4.png" width="400px">
+</div>
+
+# :rocket: Technologies
+This project was made using the follow technologies:
+
+* [React](https://reactjs.org/)      
+* [NextJS](https://nextjs.org/)    
+* [Typescript](https://www.typescriptlang.org/)      
+* [SASS](https://sass-lang.com/)  
+* [Next-Auth](https://next-auth.js.org/)    
+* [Stripe](https://stripe.com/)    
+* [FaunaDB](https://fauna.com/)    
+* [Prismic CMS](https://prismic.io/)   
+
+
+# :computer: How to run
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone Repository
+$ git clone https://github.com/lukevinicius/ignews.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Install Dependencies
+$ yarn
+# Run Aplication
+$ yarn dev
+```
+Go to http://localhost:3000/ to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# :bug: Issues
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Create a <a href="https://github.com/lukevinicius/ignews/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# :sparkles: Contributing
 
-## Learn More
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-To learn more about Next.js, take a look at the following resources:
+# :page_facing_up: License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is under the [MIT license](./LICENSE).
+Made with 💖 by [Lucas vinicius](https://linkedin.com/in/lukevinicius/). 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you! 🌠
